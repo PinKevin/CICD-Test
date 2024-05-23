@@ -1,0 +1,14 @@
+name: Create .env file
+
+on: [push]
+
+jobs:
+  create-envfile:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Make envfile
+      uses: SpicyPizza/create-envfile@v2.0
+      with:
+        envkey_ENVIRONMENT: "DEVELOPMENT"
+        envkey_CHECK: true
+       
