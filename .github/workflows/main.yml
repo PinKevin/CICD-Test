@@ -11,4 +11,5 @@ jobs:
       with:
         envkey_ENVIRONMENT: "DEVELOPMENT"
         envkey_CHECK: true
+        file_name: ./.env
        
